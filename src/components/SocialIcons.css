@@ -1,0 +1,18 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1.5rem 0 3rem;
+}
+
+.socials a {
+  color: var(--text-muted);
+  transition: color 0.25s ease, transform 0.25s ease;
+  display: flex;
+  align-items: center;
+}
+
+.socials a:hover {
+  color: var(--gold-dark);
+  transform: translateY(-2px);
+}

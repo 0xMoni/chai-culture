@@ -1,0 +1,46 @@
+.header {
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid rgba(201, 169, 110, 0.15);
+  background: linear-gradient(to bottom, var(--cream), var(--cream) 85%, transparent);
+  box-shadow: 0 4px 20px rgba(44, 24, 16, 0.06);
+  position: relative;
+  z-index: 10;
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--brown-deep);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(44, 24, 16, 0.2);
+}
+
+.brand-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--brown-deep);
+  letter-spacing: 1px;
+}
