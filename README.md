@@ -4,6 +4,8 @@
 
 A premium "Coming Soon" landing page for Chai Culture — an instant chai tea premix brand inspired by royal Indian households.
 
+**Live Demo:** https://chai-culture-orcin.vercel.app
+
 ## Features
 
 - Elegant royal Indian heritage aesthetic
@@ -16,7 +18,7 @@ A premium "Coming Soon" landing page for Chai Culture — an instant chai tea pr
 
 ## Tech Stack
 
-- React 18
+- React 19
 - CSS3 (no external UI libraries)
 - Google Fonts (Cormorant Garamond + Inter)
 
